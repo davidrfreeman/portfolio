@@ -3,7 +3,7 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        portfolio-page
+        David's portfolio-page
       </h1>
       <h2 class="subtitle">
         Nuxt.js project

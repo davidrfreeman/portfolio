@@ -6,7 +6,7 @@
         David's portfolio-page
       </h1>
       <h2 class="subtitle">
-        Nuxt.js project
+        Nuxt.js project using Travis CI
       </h2>
       <nuxt-link to="/about">About Me</nuxt-link> 
     </div>

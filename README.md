@@ -1,8 +1,6 @@
 [![Build Status](https://travis-ci.org/davidrfreeman/portfolio.svg?branch=master)](https://travis-ci.org/davidrfreeman/portfolio)
 
-# portfolio-page
-
-> Nuxt.js project
+# Personal Portfolio Page
 
 ## Build Setup
 
@@ -13,9 +11,8 @@ $ npm install # Or yarn install
 # serve with hot reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm start
+# serve with hot reload at localhost:8080 for cloud9 testing
+$ npm run dev:c9
 
 # generate static project
 $ npm run generate

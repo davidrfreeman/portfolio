@@ -1,5 +1,6 @@
 <template>
   <div>
+    <navbar/>
     <nuxt/>
   </div>
 </template>
@@ -53,3 +54,12 @@ html {
   background-color: #35495e;
 }
 </style>
+
+<script>
+import navbar from "@/layouts/navbar"
+export default {
+  components: {
+    navbar
+  }
+}
+</script>

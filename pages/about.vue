@@ -1,5 +1,11 @@
 <template>
   <div>
-    <nuxt-link to="/">Home</nuxt-link>
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <h2 class="lead">About Me</h2>
+        </div>
+      </div>
+    </div>
   </div>
 </template>

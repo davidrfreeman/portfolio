@@ -1,26 +1,18 @@
 <template>
-  <section class="container">
+  <b-container>
     <div>
-      <app-logo/>
       <h1 class="title">
         David's portfolio-page
       </h1>
       <h2 class="subtitle">
         Nuxt.js project using Travis CI
       </h2>
-      <nuxt-link to="/about">About Me</nuxt-link> 
     </div>
-  </section>
+  </b-container>
 </template>
 
 <script>
-import AppLogo from "~/components/AppLogo.vue"
-
-export default {
-  components: {
-    AppLogo
-  }
-}
+export default {}
 </script>
 
 <style>

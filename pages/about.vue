@@ -1,11 +1,14 @@
 <template>
-  <div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md">
-          <h2 class="lead">About Me</h2>
-        </div>
-      </div>
-    </div>
-  </div>
+  <b-container>
+    <b-row>
+      <b-col cols="8">
+        <h2 class="lead">Hello</h2>
+        <p>My name is David Freeman and I am a developer. I am currently pursuing my Masters at Regis University in Software Engineering. I began learning web development in 2015 after the local steel mill I was working at was hit by a downturn in the economy.</p>
+        <p>I had to decide what my next move would be. I had a bachelors from Colorado State University-Pueblo in Business majoring in Economics (possibly should have seen the lay-offs coming), and finding a new job in my area proved difficult. A friend of mine had just started his own business making websites and encouraged me to look at getting into this field. I used free online tutorials from Codecademy and FreeCodeCamp to refresh my dusty and outdated knowledge of HTML and CSS, and to also learn JavaScript. I then bought a couple of courses from Udemy and also found Coursera and EdX and took some more free course, this time on programming.</p>
+        <p>I returned to my position at the mill in 2017 and a month later took a position on the Sales Team as a Sales Analyst. I used spreadsheets a fair amount in college, but never to the degree that I did in this role. I built a number of dashboards to report on the groups performance. I also assited with Inside Sales, entering orders in Oracle 11i and scheduling shipments, I also represented my group on a weekly collections call, which meant I would send out emails weekly to customers with past due balances to get updates on their payment plans.</p>
+        <p>I worked on a project for a few months as a frontend developer and gained experience with Vue js. I enjoyed working with Vue so when I set out to build my own site this is where I started. I then learned about Nuxt and began experimenting with the Starter Template installed from the Vue CLI. In an effort to keep the cost of this site down I am using GH Pages. I wanted to do this with a static site for which Nuxt is used. Nuxt's documentation is great and was able to get this up and running shortly, I also followed the instructions to automated the build and deployment step with Travis CI. Now each time I commit to the master branch the changes are deployed to my GH Pages branch for this site.</p>
+        <p>I like this workflow and am using it to re-build a website for a church/school whos site I keep updated, currently using Wix. I am not complaining about Wix, it has its place, especially before I took over updating the site and a few staff members were doing this task and did not need any web development knowledge. My goal is to have a coding club at the school take over updating the site so they can learn web development, and not have to worry about building and deploying the static site, and I would not have to worry about the errors that would be encountered with each person locally building and deploying, as opposed to using a CI tool.</p>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>

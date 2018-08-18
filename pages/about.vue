@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <b-row>
-      <b-col cols="8">
+      <b-col cols="12" lg="8">
         <h2 class="lead">Hello</h2>
         <p>My name is David Freeman and I am a developer. I am currently pursuing my Masters at Regis University in Software Engineering. I began learning web development in 2015 after the local steel mill I was working at was hit by a downturn in the economy.</p>
         <p>I had to decide what my next move would be. I had a bachelors from Colorado State University-Pueblo in Business majoring in Economics (possibly should have seen the lay-offs coming), and finding a new job in my area proved difficult. A friend of mine had just started his own business making websites and encouraged me to look at getting into this field. I used free online tutorials from Codecademy and FreeCodeCamp to refresh my dusty and outdated knowledge of HTML and CSS, and to also learn JavaScript. I then bought a couple of courses from Udemy and also found Coursera and EdX and took some more free course, this time on programming.</p>

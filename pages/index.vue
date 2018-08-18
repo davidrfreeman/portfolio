@@ -1,13 +1,15 @@
 <template>
-  <b-container>
-    <div>
-      <h1 class="title">
-        David's portfolio-page
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project using Travis CI
-      </h2>
-    </div>
+  <b-container fluid>
+    <b-row>
+      <b-col>
+        <h1 class="title">
+          David's portfolio-page
+        </h1>
+        <h2 class="subtitle">
+          Nuxt.js project using Travis CI
+        </h2>
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 

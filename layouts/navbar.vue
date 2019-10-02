@@ -7,12 +7,10 @@
 
     <b-collapse id="nav_collapse" is-nav>
 
-      <b-navbar-nav>
-        <b-nav-item to="/">Home</b-nav-item>
+      <!-- <b-navbar-nav>
         <b-nav-item to="/about">About</b-nav-item>
-      </b-navbar-nav>
+      </b-navbar-nav> -->
     </b-collapse>
   </b-navbar>
 
-<!-- navbar-1.vue -->
 </template>

@@ -6,10 +6,11 @@
           David's portfolio-page
         </h1>
         <h2 class="subtitle">
-          Nuxt.js project using Travis CI
+          Hi my name is David Freeman and I am a developer.
         </h2>
       </b-col>
     </b-row>
+    <about/>
   </b-container>
 </template>
 
@@ -48,3 +49,12 @@ export default {}
   padding-top: 15px;
 }
 </style>
+
+<script>
+import about from "@/pages/about"
+export default {
+  components: {
+    about
+  }
+}
+</script>

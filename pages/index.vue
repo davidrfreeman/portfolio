@@ -6,7 +6,7 @@
           David's portfolio-page
         </h1>
         <h2 class="subtitle">
-          Hi my name is David Freeman and I am a developer.
+          Hi my name is David Freeman
         </h2>
       </b-col>
     </b-row>

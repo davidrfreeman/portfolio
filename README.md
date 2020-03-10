@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/davidrfreeman/portfolio.svg?branch=master)](https://travis-ci.org/davidrfreeman/portfolio)
+![Deploy to GH Pages](https://github.com/davidrfreeman/portfolio/workflows/Deploy%20to%20GH%20Pages/badge.svg)
 
 # Personal Portfolio Page
 

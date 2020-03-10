@@ -1,18 +1,23 @@
-name: Test CI Job
+name: Deploy to GH Pages
 on:
   push:
     branches:
       - master
 
 jobs:
-  build:
-    name: Build Static Pages
-    runs-on: ubuntu-latest
+  deploy:
+    name: Deploy to GH Pages
+    runs-on: ubuntu-latest    
     steps:
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 10.x
-      - name: npm install
-        run: |
-          npm install
-          npm run generate
+    - uses: actions/checkout@master
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+
+    - name: Deploy
+      uses: s0/git-publish-subdir-action@master
+      env:
+        REPO: self
+        BRANCH: gh-pages
+        FOLDER: public/site
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

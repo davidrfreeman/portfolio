@@ -1,4 +1,4 @@
-![Deploy to GH Pages](https://github.com/davidrfreeman/portfolio/workflows/Deploy%20to%20GH%20Pages/badge.svg)
+![GH Pages Build Status](https://github.com/davidrfreeman/portfolio/workflows/Deploy%20to%20GH%20Pages/badge.svg)
 
 # Personal Portfolio Page
 

@@ -13,7 +13,10 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '10.x'
-
+    - name: run npm install and generate static files
+      run: |
+        npm install
+        npm run generate
     - name: Deploy
       uses: s0/git-publish-subdir-action@master
       env:
@@ -21,3 +24,5 @@ jobs:
         BRANCH: gh-pages
         FOLDER: dist
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Test
+      run: echo "Skipping tests"

@@ -3,11 +3,8 @@
     <b-row>
       <b-col>
         <h1 class="title">
-          David's portfolio-page
+          David Freeman
         </h1>
-        <h2 class="subtitle">
-          Hi my name is David Freeman
-        </h2>
       </b-col>
     </b-row>
     <about/>

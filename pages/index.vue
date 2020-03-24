@@ -7,7 +7,7 @@
         </h1>
       </b-col>
     </b-row>
-    <about/>
+    <about />
   </b-container>
 </template>
 

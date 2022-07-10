@@ -1,0 +1,26 @@
+name: Deploy to GH Pages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy to GH Pages
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@main
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '16.x'
+    - name: run npm install and generate static files
+      run: |
+        npm install
+        npm run deploy
+    - name: Deploy
+      uses: s0/git-publish-subdir-action@main
+      env:
+        REPO: self
+        BRANCH: gh-pages
+        FOLDER: dist
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

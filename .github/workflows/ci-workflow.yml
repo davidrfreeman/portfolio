@@ -1,28 +1,17 @@
-name: Deploy to GH Pages
+name: Gatsby Publish
+
 on:
   push:
     branches:
       - main
 
 jobs:
-  deploy:
-    name: Deploy to GH Pages
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '16.x'
-    - name: run npm install and generate static files
-      run: |
-        npm install
-        npm run deploy
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Deploy
-      uses: s0/git-publish-subdir-action@master
-      env:
-        REPO: self
-        BRANCH: gh-pages
-        FOLDER: dist
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v1
+      - uses: enriikke/gatsby-gh-pages-action@v2
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: gh-pages
+          gatsby-args: --prefix-paths
